@@ -44,7 +44,14 @@ ul, ol {
 }
 
 .header-logo-part {
-    color: #2E2F42;
+color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .header-nav-link {
@@ -104,11 +111,29 @@ color: #404BBF;
 
  }
 
+ .hero-order-btn{
+    color:  #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #404BBF;
+ }
+
  .hero-order-btn {
     border-radius: 4px;
         background: #4D5AE5;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
+ }
+
+ .hero-order-btn :hover{
+    background-color: #404BBF
+ }
+ .hero-order-btn :focus{
+    background-color: #404BBF
  }
 
 
@@ -130,15 +155,17 @@ color: #404BBF;
  }
 
  .features-item {
-    color:#2E2F42;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+
 
  }
 
  .features-item-title {
+    color: #2E2F42;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 
  }
 
@@ -242,7 +269,7 @@ color: #404BBF;
 
 .footer-logo {
 color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
