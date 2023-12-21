@@ -106,7 +106,7 @@ color: #404BBF;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.7;
+        line-height: 1.07;
         letter-spacing: 0.02em;
 
  }
@@ -197,7 +197,9 @@ color: #404BBF;
         text-transform: capitalize;
  }
 
- .team-list {}
+ .team-list {
+    background-color: #FFFFFF
+ }
 
  .team-item {}
 
@@ -274,7 +276,7 @@ color: #4D5AE5;
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
