@@ -32,6 +32,10 @@ ul, ol {
 
 }
 
+.header-item{
+
+}
+
 .header-logo {
     color: #4D5AE5;
         font-family: Raleway, sans-serif;
@@ -198,10 +202,12 @@ color: #404BBF;
  }
 
  .team-list {
-    background-color: #FFFFFF
+    
  }
 
- .team-item {}
+ .team-item {
+    background-color: #FFFFFF
+ }
 
  .team-item-name {
     color: #2E2F42;
