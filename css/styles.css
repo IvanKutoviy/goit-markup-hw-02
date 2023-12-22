@@ -114,14 +114,26 @@ color: #404BBF;
 
  }
 
- .hero-order-btn{
-    color:  #FFF;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background-color: #404BBF;
+ .hero-order-btn {
+        color: #FFF;
+            font-family: "Roboto", sans-serif
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            background-color: #404BBF;
+ }
+
+ .hero-order-btn:hover {
+    background-color: #404BBF
+ }
+
+ .hero-order-btn:focus {
+    background-color: #404BBF
+ }
+
+ .hero-order-btn:active {
+color: #404BBF;
  }
 
  .hero-order-btn {
@@ -131,14 +143,7 @@ color: #404BBF;
 
  }
 
- .hero-order-btn :hover{
-    background-color: #404BBF
- }
- .hero-order-btn :focus{
-    background-color: #404BBF
- }
-
-
+ 
 
  /**--------------------------------------------*/
 
